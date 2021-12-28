@@ -1,6 +1,6 @@
-node default {
- file {'/root/README':
+class hellopuppet {
+ file { '/root/README' :
  ensure => file,
- content => 'Hello Puppet...',
+ content => 'Hello Puppet',
  }
 }
